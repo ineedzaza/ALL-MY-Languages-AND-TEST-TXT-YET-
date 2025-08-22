@@ -1,28 +1,702 @@
-BSD 3-Clause License
+.t preview_1280 2.99 0.892.t add ezfax_"g major 74"
+{iscript:
+load {iv} 0
+invert
+hueshifthsvffmpeg # 180
+explode #.t add ezfax "g major 74"
+{iscript:
+load {iv} 0
+invert
+hueshifthsvffmpeg # 180
+explode #https://discord.com/invite/zfpMkCSa8whttps://discord.gg/ymazbRNvhttps://discord.gg/HVchzT2X{iscript:
+load {iv:{args}} i
+hueshifthsv i 180
+waaw i
+rotate i 90
+waves i w/40 w/5 3
+rotate i -90
+cover i w h
+render i
+}{iscript:
+load {iv:{args}} i
+get i width w
+get i height h
+hueshifthsv i 180
+waaw i
+rotate i 90
+waves i w/40 w/5 3
+rotate i -90
+cover i w h
+audiopitch i 0.89
+}.t notscary_kinemaster{iscript:
+load {iv:{args}} i
+hueshifthsv i 180
+waaw i
+rotate i 90
+waves i w/40 w/5 3
+rotate i -90
+cover i w h
+render i
+}.t \ {iscript:
+load {iv} i
+hueshifthsv i 180
+rotate i 90
+wave i 10 100
+flop i
+rotate i 90
+wave i 10 100
+flop i
+render i
+}.t \ {iscript:
+load {iv} i
+hueshifthsv i 180
+rotate i 90
+waves i 0 100
+flop i
+rotate i 90
+flop i
+render i
+}.t \ {iscript:
+load {iv} i
+hueshifthsv i 180
+rotate i 90 none true
+waves i 10 100
+flop i
+rotate i 90 none true
+waves i 10 100
+flop i
+render i
+}.t \ {iscript:
+load {iv} i
+hueshifthsv i 180
+rotate i 90 none true
+waves i 10 100
+flop i
+rotate i 90 none true
+waves i 10 100
+flop.t musescore "0.4" "0.2" "0.8" "0.4" "0.4" "0.1" "0.2" "0.3" "0.4" "0.5" "0.6" "0.7" "0.8" "0.9" "1.0" "0.4" "0.2" "0.8" "0.4" "0.4" "0.1" "0.2" "0.3" "0.4" "0.5" "0.6" "0.7" "0.8" "0.9" "1.0""0.4" "0.2" "0.8" "0.4" "0.4" "0.1" "0.2" "0.3" "0.4" "0.5" "0.6" "0.7" "0.8" "0.9" "1.0".t add musescore_ff.mpeg
+{eval:{text:https://pastebin.com/raw/yqYd8AMb }}
+{sh:
+{get:code}
+}
+}**Code created by Salagata's Tag Code Generator,** Currenly only avaiable on NotSoBot
+this is a beta of my code creator, if anything is broken, ping me please
+{if:{argslen}|=|0|then:{code:.tag {tagname} <pitches>}
+<pitches> is a pair "<duration> <pitch>".
+To do a silence add a - to the duration like this "-<duration> <pitch>"
+Examples:
+"0.4 4" (4 pitch is a D#)
+"-0.4 4" 
+|else: Normally, in Compositor-Like tags you have to do `.tag sync`  to make it synced to the audio, but in real Compositors, the unique thing that matter is the audio, no the video, so, that's why i don't make you use it.
+{eval:{text:https://pastebin.com/raw/yqYd8AMb }}
+{sh:
+{get:code}
+}
+}.code js const temp = [];
+let powers = 10
+function* gen(powers) {
+   for(let i = 2; i <= powers; 2^^){
+      yield i
+    }
+}
+temp.push(...Array.from(gen(powers)))
+console.log(temp.join(` `))tul!register "JERNEditBot" jerneb:text.code js const temp = [];
+let powers = 4500
+function* gen(powers) {
+   for(let i = 1; i <= powers; i++){
+      yield i
+    }
+}
+temp.push(...Array.from(gen(powers)))
+console.log(temp.join(` `)).t testc {iscript:
+load {iv:{args}} 0
+copy 0 1
+volume 0 0
+copy 1 2
+hueshifthsv 1 180
+copy 2 3
+hueshifthsv 2 180
+wiggle 3 right 1 1
+copy 3 4
+hueshifthsv 3 180
+deepfry 3
+wiggle 3 right 1 1
+invert 3
+concatmultiple 0 1 2 3
+render 0}.t testc {iscript:
+load {iv:{args}} 0
+copy 0 1
+volume 0 0
+copy 1 2
+hueshifthsv 1 180
+copy 2 3
+hueshifthsv 2 180
+wiggle right 1 1
+copy 3 4
+hueshifthsv 3 180
+deepfry
+wiggle right 1 1
+invert 3
+concatmultiple 0 1 2 3
+render 0}.t testc {iscript:
+load {iv:{args}} 0
+copy 0 1
+volume 0 0
+copy 1 2
+hueshifthsv 1 180
+copy 2 3
+hueshifthsv 2 180
+shake 2 10 10 true
+copy 3 4
+hueshifthsv 3 180
+shake 3 10 10 true
+invert 3
+concatmultiple 0 1 2 3
+render 0}.t testc {iscript:
+load {iv:{args}} 0
+copy 0 1
+volume 0 0
+copy 1 2
+hueshifthsv 1 180
+copy 2 3
+shake 2 10 10 true
+copy 3 4
+invert 3
+concatmultiple 0 1 2 3
+render 0}​https://cdn.discordapp.com/attachments/1124761004706893884/1408379954994876597/I_Hate_The_X_Major_159_Notsobot.txt?ex=68a9878b&is=68a8360b&hm=0e05dfc192354758c501347c4a0b36581cc673cdf1bcfaa161e3eec2703a9243&Skip to main content
+Skip to primary sidebar
+dff-small
+Dafont FreeDownload Fonts
+Menu
+Home › Fancy › Cartoon › Grobold Font
+Grobold Font
+Grobold Font, designed by Guy Buhry, is an eye-catching 3D font typeface. Ideal for banners, posters and logo designs due to its compacted letters featuring slim transverse lines giving it a strong yet visible base – its exact layout of letter “q” alongside letter “z” also make this set unique!
 
-Copyright (c) 2025, ineedzaza
 
-Redistribution and use in source and binary forms, with or without
-modification, are permitted provided that the following conditions are met:
+Paw Patrol is an e-typeface used by manufacturers with an appealing appearance that’s also easy on the eyes. As a display font, its simple shapes and circles form letters which allows readers to connect dots more efficiently.
 
-1. Redistributions of source code must retain the above copyright notice, this
-   list of conditions and the following disclaimer.
+This font is FREE FOR PERSONAL USE.
 
-2. Redistributions in binary form must reproduce the above copyright notice,
-   this list of conditions and the following disclaimer in the documentation
-   and/or other materials provided with the distribution.
+GROBOLD CARTOON FONT
+GROBOLD FONTGROBOLD FONT-2
 
-3. Neither the name of the copyright holder nor the names of its
-   contributors may be used to endorse or promote products derived from
-   this software without specific prior written permission.
+License: Personal Use Only!
+Font Type: Free
+Format: TTF
+Total Files: 1
 
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
-AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
-IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
-DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
-FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
-DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
-SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
-CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
-OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
-OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+Download
+5000+ Fonts
+
+Related
+Finest Vintage Font
+Finest Vintage Font
+
+In "Retro"
+Arturito Typeface-1
+Arturito Typeface
+
+In "Serif"
+Sauce Tomato Font
+Sauce Tomato Font
+
+In "Retro"
+Tessen Font
+Tessen Font
+
+In "Serif"
+Saveride Font
+Saveride Font
+
+In "Display"
+Salted Monthoers Typeface
+Salted Monthoers Typeface
+
+In "Blackletter"
+Calera Font
+Calera Font
+
+In "Serif"
+Finder Font-1
+Finder Font
+
+In "Display"
+Quickly Exquisite Font
+Quickly Exquisite Font
+
+In "Sans Serif"
+Filed Under: Cartoon, Display
+
+
+About Dafont
+Dafont Free is a collaboration of free high quality fonts including Basic, Script, Handmade, Calligraphy, Fancy, Display, Gothic and more.
+
+Reader Interactions
+Leave a Reply
+Your email address will not be published. Required fields are marked *
+
+Comment *
+
+Name *
+
+Email *
+
+Website
+
+
+This site uses Akismet to reduce spam. Learn how your comment data is processed.
+
+Primary Sidebar
+Search fonts...
+
+Featured
+View All
+Montleire FontMontleire Font
+Nov 21, 2021
+Dynamika Sans TypefaceDynamika Sans Typeface
+Sep 4, 2019
+The Jagret FontThe Jagret Font
+Oct 28, 2022
+Rose Velt FontRose Velt Font
+Aug 13, 2021
+Mondeline FontMondeline Font
+Mar 15, 2021
+Misto TypefaceMisto Typeface
+Sep 29, 2019
+Highpro FontHighpro Font
+Jul 3, 2022
+Our site is reader supported. We may get paid by products we promote.
+
+About Us
+ 
+Privacy Policy
+ 
+Disclaimer
+ 
+Back to Top
+
+Play VideoBrand logo
+
+ 
+
+Skip to main content
+Skip to primary sidebar
+dff-small
+Dafont FreeDownload Fonts
+Menu
+Home › Fancy › Cartoon › Grobold Font
+Grobold Font
+Grobold Font, designed by Guy Buhry, is an eye-catching 3D font typeface. Ideal for banners, posters and logo designs due to its compacted letters featuring slim transverse lines giving it a strong yet visible base – its exact layout of letter “q” alongside letter “z” also make this set unique!
+
+
+Paw Patrol is an e-typeface used by manufacturers with an appealing appearance that’s also easy on the eyes. As a display font, its simple shapes and circles form letters which allows readers to connect dots more efficiently.
+
+This font is FREE FOR PERSONAL USE.
+
+GROBOLD CARTOON FONT
+GROBOLD FONTGROBOLD FONT-2
+
+License: Personal Use Only!
+Font Type: Free
+Format: TTF
+Total Files: 1
+
+Download
+5000+ Fonts
+
+Related
+Finest Vintage Font
+Finest Vintage Font
+
+In "Retro"
+Arturito Typeface-1
+Arturito Typeface
+
+In "Serif"
+Sauce Tomato Font
+Sauce Tomato Font
+
+In "Retro"
+Tessen Font
+Tessen Font
+
+In "Serif"
+Saveride Font
+Saveride Font
+
+In "Display"
+Salted Monthoers Typeface
+Salted Monthoers Typeface
+
+In "Blackletter"
+Calera Font
+Calera Font
+
+In "Serif"
+Finder Font-1
+Finder Font
+
+In "Display"
+Quickly Exquisite Font
+Quickly Exquisite Font
+
+In "Sans Serif"
+Filed Under: Cartoon, Display
+
+
+About Dafont
+Dafont Free is a collaboration of free high quality fonts including Basic, Script, Handmade, Calligraphy, Fancy, Display, Gothic and more.
+
+Reader Interactions
+Leave a Reply
+Your email address will not be published. Required fields are marked *
+
+Comment *
+
+Name *
+
+Email *
+
+Website
+
+
+This site uses Akismet to reduce spam. Learn how your comment data is processed.
+
+Primary Sidebar
+Search fonts...
+
+Featured
+View All
+Montleire FontMontleire Font
+Nov 21, 2021
+Dynamika Sans TypefaceDynamika Sans Typeface
+Sep 4, 2019
+The Jagret FontThe Jagret Font
+Oct 28, 2022
+Rose Velt FontRose Velt Font
+Aug 13, 2021
+Mondeline FontMondeline Font
+Mar 15, 2021
+Misto TypefaceMisto Typeface
+Sep 29, 2019
+Highpro FontHighpro Font
+Jul 3, 2022
+Our site is reader supported. We may get paid by products we promote.
+
+About Us
+ 
+Privacy Policy
+ 
+Disclaimer
+ 
+Back to Top
+
+Play VideoBrand logo
+
+ 
+
+https://www.mediafire.com/file/dr7h927bh3us9bj.t preview2effects_nsb​https://cdn.discordapp.com/attachments/1124761004706893884/1408336758508359853/preview2effects_iscript.txt?ex=68a95f50&is=68a80dd0&hm=e15e9f41ef5e9fc03beafec678ef7904547715d3a1844dbcddc686bb8749bc21&.t testc {iscript:
+load {iv} 0
+copy 0 1
+volume 0
+copy 1 2
+huecurvergba 1 all 0 1 0
+copy 2 3
+hueshifthsv 2 180
+invert 2
+haah 2
+copy 3 4
+hueshifthsv 3 180
+invert 3
+haah 3
+huecurvergba 3 all 0 1 0
+copy 4 5
+wiggle 4 down 40 3
+hueshiftrgb 4 0 -255 -255
+copy 5 6
+grayscale 5
+huecurvergba 5 red 1 0 0
+huecurvergba 5 green 1 0 1
+huecurvergba 5 blue 1 1 1
+copy 6 7
+invert 6
+copy 7 8
+invert 7
+hueshifthsv 7 210
+waves 7 10 100
+concatmultiple 0 1 2 3 4 5 6 7
+render 0}.t testc {iscript:
+load {iv} 0
+copy 0 1
+volume 0
+copy 1 2
+huecurvergba 1 all 0 1 0
+copy 2 3
+hueshifthsv 2 180
+invert 2
+copy 3 4
+hueshifthsv 3 180
+invert 3
+huecurvergba 3 all 0 1 0
+copy 4 5
+rotate 4 90
+wiggle 4 down 40 3
+hueshiftrgb 4 0 -255 -255
+copy 5 6
+grayscale 5
+huecurvergba 5 red 1 0 0
+huecurvergba 5 green 1 0 1
+huecurvergba 5 blue 1 1 1
+copy 6 7
+invert 6
+copy 7 8
+invert 7
+hueshifthsv 7 210
+waves 7 100
+concatmultiple 0 1 2 3 4 5 6 7
+render 0}.t testc {iscript:
+load {iv} 0
+copy 0 1
+volume 0
+copy 1 2
+huecurvergba 1 all 0 1 0
+copy 2 3
+hueshifthsv 2 180
+invert 2
+copy 3 4
+hueshifthsv 3 180
+invert 3
+huecurvergba 3 all 0 1 0
+copy 4 5
+rotate 4 90
+wiggle down 40 3
+hueshiftrgb 4 0 -255 -255
+copy 5 6
+grayscale 5
+huecurvergba 5 red 1 0 0
+huecurvergba 5 green 1 0 1
+huecurvergba 5 blue 1 1 1
+copy 6 7
+invert 6
+copy 7 8
+invert 7
+hueshifthsv 7 210
+waves 7 10 100
+concatmultiple 0 1 2 3 4 5 6 7
+render 0}.t testc {iscript:
+load {iv} 0
+copy 0 1
+volume 0
+copy 1 2
+huecurvergba 1 all 0 1 0
+copy 2 3
+hueshifthsv 2 180
+invert 2
+copy 3 4
+hueshifthsv 3 180
+invert 3
+huecurvergba 3 all 0 1 0
+copy 4 5
+rotate 4 90
+waves 10 100
+flop
+rotate 4 -90
+waves 44 10
+flop
+hueshiftrgb 4 0 -255 -255
+copy 5 6
+grayscale 5
+huecurvergba 5 red 1 0 0
+huecurvergba 5 green 1 0 1
+huecurvergba 5 blue 1 1 1
+copy 6 7
+invert 6
+copy 7 8
+invert 7
+hueshifthsv 7 210
+waves 7 10 100
+concatmultiple 0 1 2 3 4 5 6 7
+render 0}.t testc {iscript:
+load {iv} 0
+copy 0 1
+volume 0
+copy 1 2
+huecurvergba 1 all 0 1 0
+copy 2 3
+hueshifthsv 2 180
+invert 2
+copy 3 4
+hueshifthsv 3 180
+invert 3
+huecurvergba 3 all 0 1 0
+copy 4 5
+rotate 4 90 
+flop 4
+waves 4 w/44 w/7 4
+waves 4 w/27 w/4 2
+flop 4
+waves 4 w/70 w/12 7
+rotate 4 -90
+cover 4 w h
+hueshiftrgb 4 0 -255 -255
+copy 5 6
+grayscale 5
+huecurvergba 5 red 1 0 0
+huecurvergba 5 green 1 0 1
+huecurvergba 5 blue 1 1 1
+copy 6 7
+invert 6
+copy 7 8
+invert 7
+hueshifthsv 7 210
+waves 7 10 100
+concatmultiple 0 1 2 3 4 5 6 7
+render 0}huecurvergba # red 1 0 0
+huecurvergba # green 1 0 1
+huecurvergba # blue 1 1 1rotate # 90 
+flop #
+waves # w/44 w/7 4
+waves # w/27 w/4 2
+flop #
+waves # w/70 w/12 7
+rotate # -90
+cover # w h
+hueshiftrgb # 0 -255 -255.t testc {iscript:
+load {iv} 0
+copy 0 1
+volume 0
+copy 1 2
+huecurvergba 1 all 0 1 0
+copy 2 3
+hueshifthsv 2 180
+invert 2
+copy 3 4
+hueshifthsv 3 180
+invert 3
+huecurvergba 3 all 0 1 0
+copy 4 5
+rotate 4 90 
+flop 4
+waves 4 w/44 w/7 4
+waves 4 w/27 w/4 2
+flop 4
+waves 4 w/70 w/12 7
+rotate 4 -90
+cover 4 w h
+hueshiftrgb 4 0 -255 -255
+copy 5 6
+grayscale 5
+huecurvergba 5 red 1 0 0
+huecurvergba 5 green 1 0 1
+huecurvergba 5 blue 1 1 1
+copy 6 7
+invert 6
+copy 7 8
+invert 7
+hueshifthsv 7 210
+waves 7 10 100
+concatmultiple 0 1 2 3 4 5 6 7
+render 0}huecurvergba # red 1 0 0
+huecurvergba # green 1 0 1
+huecurvergba # blue 1 1 1rotate # 90 
+flop #
+waves # w/44 w/7 4
+waves # w/27 w/4 2
+flop #
+waves # w/70 w/12 7
+rotate # -90
+cover # w h
+hueshiftrgb # 0 -255 -255.t testc {iscript:
+load {iv} 0
+copy 0 1
+volume 0
+copy 1 2
+hueshifthsv 1 -50
+copy 2
+swirl 2 5
+copy 3 4
+invert 3
+copy 4 5
+invert 4
+flop 4
+hueshifthsv 4 210
+copy 5 6
+hueshifthsv 5 100
+waves 5 10 100
+copy 6 7
+swirl 7 210
+copy 8 9
+mirrorbottom 8
+spin 8 true false true
+copy 9 10
+rain 9
+waves 9 10 100
+copy 10 11
+invert 10
+flop 10
+concatmultiple 0 1 2 3 4 5 6 7 8 9 10
+render 0}.t testc {iscript:
+load {iv} 0
+copy 0 1
+volume 0
+copy 1 2
+hueshifthsv 1 -50
+copy 2 3
+foreachframe 2 0 16 swirl (idx*1)
+swirl 2 0
+copy 3 4
+invert 3
+copy 4 5
+invert 4
+flop 4
+hueshifthsv 4 210
+copy 5 6
+hueshifthsv 5 100
+waves 5 10 100
+copy 6 7
+foreachframe 6 0 360 swirl (idx*1)
+swirl 7 0
+copy 8 9
+mirrorbottom 8
+spin 8 true false true
+copy 9 10
+rain 9
+waves 9 10 100
+copy 10 11
+invert 10
+flop 10
+concatmultiple 0 1 2 3 4 5 6 7 8 9 10
+render 0}.t testc {iscript:
+load {iv} 0
+copy 0 1
+volume 0
+copy 1 2
+hueshifthsv 1 -50
+copy 2 3
+foreachframe 2 0 16 swirl (idx*1)
+swirl 2 0
+copy 3 4
+invert 3
+copy 4 5
+invert 4
+flop 4
+hueshifthsv 4 210
+copy 5 6
+hueshifthsv 5 100
+waves 5 10 100
+copy 6 7
+foreachframe 6 0 360 swirl (idx*1)
+swirl 7 0
+copy 8 9
+mirrorbottom 8
+spin 8 true false true
+copy 9 10
+rain 9
+waves 9 10 100
+copy 10 11
+invert 10
+flop 10
+concatmultiple 0 1 2 3 4 5 6 7 8 9 10
+render 0}
+mirrorbottom 8
+spin 8 true false true
